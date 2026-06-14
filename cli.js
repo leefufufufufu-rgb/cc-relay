@@ -17,6 +17,8 @@ const sub = process.argv[2] || '';
         return await require('./lib/relay').statusCmd();
       case 'switch':
         return await require('./lib/relay').switchCmd();
+      case 'set-upstream-proxy':
+        return require('./lib/relay').setProxyCmd(process.argv[3]);
       case 'install':
         return await require('./lib/install').install(process.argv.slice(3));
       case 'uninstall':
