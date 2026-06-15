@@ -1,6 +1,6 @@
 {
   "name": "cc-relay",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Credential-injecting launcher: fetch a short-lived token from a configurable broker, inject it into the environment, and run the target CLI. Supports multiple accounts with automatic rotation.",
   "private": true,
   "bin": {
